@@ -5,7 +5,7 @@ import os
 if __name__ == '__main__':
 	sys.path.append(os.path.dirname(__file__) + '/../')
 
-from core.task_handler import TaskHandler 
+from api_functional_tests.core.task_handler import TaskHandler 
 from config import DEFAULT_PASSWORD as PASSWORD 
 from config import DEFAULT_USERNAME as USERNAME 
 
